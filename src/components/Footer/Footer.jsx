@@ -112,11 +112,15 @@ const Footer = () => {
         <hr className="border-light" />
 
         <div className={`${styles.copyright} row align-items-center`}>
-          <div className="col-12 col-md-6 text-center text-md-start">
-            <p className="mb-2 mb-md-0">© 2024 TelanganaGo</p>
+          <div className="col-12 col-4 col-md-4 text-center text-md-start">
+            <p className="mb-2 mb-md-0">© 2026 TelanganaGo</p>
           </div>
 
-          <div className="col-12 col-md-6 text-center text-md-end">
+          <div className="col-12 col-4 col-md-4 text-center text-md-start">
+            <p className="mb-2 mb-md-0">Design & developed by<Link to="https://www.techgraphicss.com/" className="text-decoration-none"> techgraphicss</Link></p>
+          </div>
+
+          <div className="col-12 col-4 col-md-4 text-center text-md-start">
             <ul className="list-unstyled d-flex justify-content-center justify-content-md-end gap-3 mb-0">
               <li>Privacy Policy</li>
               <li>Cookie Policy</li>
