@@ -1,0 +1,21 @@
+.gradientText {
+    background: linear-gradient(90deg, #0f3dde, #ff5a1f);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.gradientLogo {
+  background:linear-gradient(145deg, #0f3dde, #ff5a1f);
+  padding:5px 10px;
+  border-radius: 12px;
+  width: 40px;
+  height: 40px;
+  display: flex;
+
+  align-items: center;
+}
+
+.gradientLogo img{
+    width: 20px;
+    height: 20px;
+}

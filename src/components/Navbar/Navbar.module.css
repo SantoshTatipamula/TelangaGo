@@ -1,0 +1,41 @@
+.NavLink {
+  color: #0F172A;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.NavLink:hover {
+  color: #0F3DDE;
+}
+
+/* Login button */
+.button {
+  background-color: white;
+  border: none;
+  color: black;
+  border-radius: 50px;
+  padding: 6px 16px;
+}
+
+.button:hover {
+  background-color: #f1f5f9;
+}
+
+/* Signup button */
+.SignUp {
+  border-radius: 50px;
+  padding: 6px 16px;
+  background-color: #0F3DDE;
+  color: white;
+  border: none;
+}
+
+.SignUp:hover {
+  background-color: #0c2fc0;
+}
+
+@media (min-width: 992px) {
+  .navbarToggler {
+    display: none;
+  }
+}

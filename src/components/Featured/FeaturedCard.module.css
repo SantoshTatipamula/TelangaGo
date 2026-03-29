@@ -1,0 +1,91 @@
+.card {
+  max-width: 288px;
+  width: 100%;
+  overflow: hidden;
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.imgContainer img {
+  object-fit: cover;
+}
+
+
+.favBtn {
+  top: 10px;
+  right: 10px;
+
+  width: 32px;
+  height: 32px;
+
+  background: rgba(255, 255, 255, 0.3);
+  cursor: pointer;
+
+  transition: 0.2s;
+}
+.favBtn {
+  transition: 0.2s;
+}
+
+.favBtn img {
+  width: 60%;
+}
+
+.content {
+  padding: 12px;
+}
+
+
+.rating {
+  font-size: 12px;
+  border-radius: 6px;
+  background-color: #0F3DDE1A;
+  color: #0F3DDE;
+}
+
+
+.locationContainer img {
+  width: 14px;
+  height: 14px;
+  object-fit: contain;
+}
+
+.locationContainer span {
+  font-size: 13px;
+  color: #64748b;
+}
+
+
+.price {
+  font-weight: 600;
+}
+
+.night {
+  color: #8f9aaa;
+}
+
+
+.liked {
+  background: rgba(255, 0, 0, 0.2);
+  transform: scale(1.1);
+}
+
+@media (max-width: 768px) {
+  .favBtn {
+    width: 28px;
+    height: 28px;
+  }
+}
+
+@media (max-width: 576px) {
+  .favBtn {
+    width: 24px;
+    height: 24px;
+    top: 6px;
+    right: 6px;
+  }
+}
+

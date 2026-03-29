@@ -1,0 +1,51 @@
+.section {
+  padding: 60px 0;
+}
+
+/* Heading */
+.heading {
+  font-size: 28px;
+  font-weight: 600;
+  color: #0f172a;
+}
+
+.subtext {
+  color: #64748b;
+  font-size: 14px;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+/* Step Box */
+.stepBox {
+  padding: 20px;
+}
+
+/* Gradient Icon */
+.icon {
+  width: 50px;
+  height: 50px;
+  margin: 0 auto;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 12px;
+  color: white;
+  font-weight: 600;
+
+  background: linear-gradient(135deg, #3b82f6, #f97316);
+}
+
+/* Description */
+.desc {
+  font-size: 13px;
+  color: #64748b;
+  margin-top: 6px;
+}
+
+.stepBox:hover {
+  transform: translateY(-5px);
+  transition: 0.3s;
+}

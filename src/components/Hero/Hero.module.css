@@ -1,0 +1,152 @@
+.section {
+  padding: 80px 16px;
+
+  min-height: 520px; /* ✅ allows growth */
+
+  display: flex;
+  align-items: center;
+
+  background:
+    radial-gradient(141% 141% at 0% 0%, #3463ef 0%, rgba(52, 99, 239, 0) 50%),
+    radial-gradient(70% 141% at 50% 0%, #ff5a1f 0%, rgba(255, 90, 31, 0) 50%),
+    radial-gradient(141% 141% at 100% 0%, #3463ef 0%, rgba(52, 99, 239, 0) 50%),
+    #0f3dde;
+
+  overflow: hidden; /* ✅ keeps background contained */
+}
+
+.heading {
+  font-size: 64px;
+  color: white;
+}
+
+.subText {
+  max-width: 650px;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.searchBox {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  max-width: 1024px;
+  width: 100%;
+
+  background: white;
+  border-radius: 9999px;
+  padding: 8px;
+
+  margin: 30px auto;
+  box-shadow: 0px 25px 50px -12px rgba(0, 0, 0, 0.25);
+
+  gap: 8px;
+}
+
+.searchContainer {
+  display: flex;
+  flex: 1;
+  min-width: 0;
+}
+
+.searchContainer > div {
+  flex: 1;
+  min-width: 0;
+}
+
+.searchBtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+
+  height: 56px;
+  min-width: 150px;
+
+  background: #0f3dde;
+  color: white;
+  border: none;
+  border-radius: 9999px;
+
+  padding: 0 24px;
+  flex-shrink: 0;
+}
+
+@media (max-width: 768px) {
+  .searchBox {
+    flex-direction: column;
+    border-radius: 20px;
+    padding: 16px;
+  }
+
+  .searchContainer {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .field {
+    width: 100%;
+    padding: 12px 0;
+    border-left: none !important;
+    border-bottom: 1px solid #eee;
+  }
+
+  .field:last-child {
+    border-bottom: none;
+  }
+
+  .searchBtn {
+    width: 100%;
+    margin-top: 10px;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .searchBox {
+    flex-direction: column;
+    border-radius: 20px;
+    padding: 16px;
+  }
+
+  .searchContainer {
+    width: 100%;
+  }
+
+  .searchBtn {
+    width: 100%;
+    margin-top: 10px;
+  }
+}
+
+.field {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+  padding: 12px 20px;
+  flex: 1;
+  min-width: 0;
+}
+
+.field img {
+  width: 18px;
+}
+
+.field p {
+  margin: 0;
+  font-size: 10px;
+  font-weight: 700;
+  color: #94a3b8;
+}
+
+.field input,
+.field select {
+  border: none;
+  outline: none;
+  font-size: 14px;
+  width: 100%;
+}
+
+.border {
+  border-left: 1px solid #eee;
+}
